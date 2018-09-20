@@ -1,0 +1,333 @@
+
+atof_pure_cpp_example.cpp,15
+int main(4,40
+
+bind_insert.cpp,137
+sqlite3* db;14,642
+int first_row;16,656
+int select_callback(18,672
+void select_stmt(52,1233
+void sql_stmt(69,1563
+int main(80,1767
+
+charwalk.cpp,59
+using std::cout;5,64
+using std::endl;6,81
+int main(8,99
+
+class_comparation.cpp,15
+int main(5,81
+
+command_line_parser.cpp,15
+int main(5,60
+
+deprecated_c14.cpp,33
+void foo(6,110
+int main(11,169
+
+dinamic_array.cpp,17
+int main(17,311
+
+directives.cpp,41
+#define DB_NAME 11,137
+int main(15,189
+
+duvida.cpp,14
+int main(2,1
+
+fucking_pchar.cpp,182
+class WithPchar 14,183
+		char* name;16,212
+WithPchar::WithPchar(WithPchar23,315
+void WithPchar::setChar(setChar27,372
+char* WithPchar::getChar(getChar31,432
+int main(37,489
+
+fucking_strings.cpp,208
+class with_string 15,203
+  string name;18,233
+with_string::with_string(with_string25,361
+string with_string::get_string(get_string29,431
+void with_string::set_string(set_string33,493
+int main(38,569
+
+getopt_long_parser.cpp,12
+main(6,103
+
+helloworld.cpp,55
+namespace mycode 5,40
+void foo(7,60
+int main(18,259
+
+identation_test.cpp,31
+int add 3,21
+int main(10,123
+
+inheritance_cast.cpp,217
+class A 4,35
+  int a;5,45
+  virtual void print(7,62
+class B 10,110
+  int b;11,131
+  void print(13,148
+class C 19,224
+  char *c;c20,245
+  void print_my_name(22,264
+void print_classes(27,329
+int main(31,401
+
+lambda_test.cpp,15
+int main(6,82
+
+maior.cpp,15
+int main(3,21
+
+make_heap.cpp,79
+int main(5,60
+    struct cmp 8,159
+        bool operator()(operator()9,176
+
+map_return_insert.cpp,15
+int main(8,78
+
+output_test.cpp,15
+int main(7,80
+
+passing_strings_by_reference.cpp,203
+void parameter_by_value(9,120
+void parameter_by_pointer(14,162
+void parammeter_by_reference(20,221
+void parameter_by_cons_reference(25,269
+void parameter_string_by_reference(31,417
+int main(35,476
+
+polimorphic_list_of_pointer_objetcts.cpp,169
+class animal 6,59
+  virtual void makeSound(8,82
+class dog 11,139
+  virtual void makeSound(13,175
+class cat 16,232
+  virtual void makeSound(18,268
+int main(21,325
+
+printing_a_class.cpp,264
+class Foo 11,160
+	int id;13,181
+	char *name;name14,190
+Foo::Foo(Foo24,344
+int Foo::getId(getId29,414
+void Foo::setId(setId32,453
+ char* Foo::getName(getName36,498
+void Foo::setName(setName40,545
+ char* Foo::toString(toString44,602
+int main(50,734
+
+Rectangle.cpp,67
+Rectangle::Rectangle(Rectangle4,44
+void Rectangle::fce(fce8,90
+
+reding_files.cpp,16
+int main(8,100
+
+return_test.cpp,31
+bool soma(3,19
+int main(8,86
+
+sample_mutex.cpp,54
+mutex m;7,78
+void print_block(9,88
+int main(20,242
+
+sample_treads.cpp,49
+void foo(5,40
+void bar(10,149
+int main(16,251
+
+signed.cpp,15
+int main 5,43
+
+simple_graph.cpp,16
+int main(6,125
+
+sqlite_db_to_vector.cpp,225
+class Company10,140
+      int id;15,178
+      string name;16,192
+      int age;17,211
+      string address;18,226
+      double salary;19,248
+Company::Company(Company23,369
+static int callback(32,580
+int main(42,801
+
+sqlite_resultCode.cpp,15
+int main(4,42
+
+static_data_member.cpp,144
+class Demo 3,21
+  static int my_number;9,50
+int Demo::my_number 13,105
+void Demo::change_my_number(change_my_number15,131
+int main 20,182
+
+struct_class_like.cpp,185
+struct A 5,58
+	std::string s;6,69
+	A(8,147
+	void bazinga(23,503
+struct class_like 29,561
+		std::string st;31,591
+		class_like(33,618
+		std::string getSt(34,675
+int main(37,722
+
+struct_comparation.cpp,341
+struct MyStructSimple 5,83
+  T simple;6,107
+  explicit MyStructSimple(7,119
+  bool equals(8,173
+  friend bool operator==(operator==12,265
+  friend  std::ostream& operator<<(17,411
+struct MyStruct 25,589
+  T* a;26,607
+  T* b;27,615
+  MyStruct(28,623
+  bool equals(29,660
+  friend std::ostream& operator<<(33,756
+int main(41,919
+
+temp2.cpp,15
+int main(4,60
+
+temp.cpp,15
+int main(4,60
+
+test.cpp,15
+int main 5,43
+
+using_array.cpp,15
+int main(4,38
+
+using_assert.cpp,45
+void print_number(21,1338
+int main 26,1424
+
+using_exceptions_example.cpp,65
+class MyException 5,40
+  std::string what;7,68
+int main(10,92
+
+using_for_auto.cpp,15
+int main(9,62
+
+using_h_dependencies.cpp,15
+int main(4,60
+
+using_lists.cpp,15
+int main(4,37
+
+using_map.cpp,15
+int main(8,78
+
+using_ncurses.cpp,15
+int main(4,76
+
+using_pointers.cpp,110
+struct foo_t13,177
+    foo_t(15,192
+    ~foo_t(16,235
+    void bar(17,280
+void f(20,330
+int main(25,396
+
+using_preprocessor.cpp,111
+#define TABLE_SIZE 4,42
+int table1[table15,65
+#undef TABLE_SIZE6,89
+#define getmax(8,108
+int main(10,147
+
+using_references_pointers.cpp,14
+int main(5,4
+
+using_smart_pointers.cpp,160
+class SmartPointer 13,470
+  int *ptr;ptr14,491
+  explicit SmartPointer(18,576
+  ~SmartPointer(21,645
+  int &operator *(operator *27,774
+int main(32,817
+
+using_smart_pointers_generic.cpp,176
+class SmartPtr7,63
+  T *ptr;ptr9,80
+  explicit SmartPtr(12,133
+  ~SmartPtr(15,196
+  T &operator *(operator *18,268
+  T *operator ->(operator ->23,453
+int main(26,492
+
+using_sqlite_databases.cpp,43
+static int callback(5,62
+int main(14,282
+
+using_stack.cpp,15
+int main(4,38
+
+using_unordered_map.cpp,17
+int main 12,182
+
+using_unsorted_set.cpp,16
+int main 7,106
+
+using_vector.cpp,77
+struct myStruct15,217
+	int id;17,235
+	string nome;18,244
+int main(21,262
+
+using_with.cpp,16
+int main(8,132
+
+work_with_files.cpp,15
+int main(7,80
+
+work_with_files_normal.cpp,15
+int main(7,80
+
+work_with_strings.cpp,15
+int main(4,39
+
+UseFile.h,93
+#define _USEFILE_H_2,20
+class UseFile 5,42
+  std::fstream fileStream;7,68
+ UseFile(9,104
+
+Vertex.h,268
+#define _VERTEX_H_4,60
+class Vertex 7,102
+  T value_;9,127
+  int color_;10,139
+  int discovered_time_;11,153
+  int finished_time_;12,177
+  vertex* parent_;13,199
+  int key_;14,218
+  static int WHITE;17,240
+  static int BRACK;18,260
+  static int GRAY;19,280
+
+integer_to_char.cc,15
+int main(6,42
+
+regex.cc,15
+int main(7,78
+
+st_classes.cc,73
+class MyClass 10,152
+		static const int MAIDEN 13,178
+int main(18,236
+
+sometest.cpp,0
+
+new_func_syntax.cpp,0
