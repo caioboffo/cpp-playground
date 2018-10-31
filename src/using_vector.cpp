@@ -1,53 +1,34 @@
-/*
- * using_vector.cpp
- *
- *  Created on: 25/02/2015 14:35:23
- *      Autor: Caio Boffo Silva
- *      E-Mail: caioboffo@gmail.com
- *
- */
-#include <iostream>
-#include <vector>
 #include <cstring>
-
-using namespace std;
+#include <iostream>
+#include <memory>
+#include <vector>
 
 struct myStruct
 {
 	int id;
-	string nome;
+    std::string nome;
+    myStruct(int _id, std::string _nome) : id(_id), nome(_nome) {}
 };
 
-int main(int argc, char const *argv[])
+int main()
 {
-	vector<myStruct> elementos;
+    using element_vector = std::vector<std::unique_ptr<myStruct>>;
+    std::unique_ptr<element_vector> elementos(new element_vector);
 
+	auto e1 = std::make_unique<myStruct>(1, "eu sou o elemento 1");
+    auto e2 = std::make_unique<myStruct>(2, "eu sou o elemento 2");
+    auto e3 = std::make_unique<myStruct>(3, "eu sou o elemento 3");
+    auto e4 = std::make_unique<myStruct>(4, "eu sou o elemento 4");
 
-	myStruct e1, e2, e3, e4;
-	
-	e1.id = 1;
-	e1.nome = "eu sou o elemento 1";
+	elementos->push_back(std::move(e1));
+	elementos->push_back(std::move(e2));
+	elementos->push_back(std::move(e3));
+	elementos->push_back(std::move(e4));
 
-	e2.id = 2;
-	e2.nome = "eu sou o elemento 2";
-
-	e3.id = 3;
-	e3.nome = "eu sou o elemento 3";
-
-	e4.id = 4;
-	e4.nome = "eu sou o elemento 4";
-
-	elementos.push_back(e1);
-	elementos.push_back(e2);
-	elementos.push_back(e3);
-	elementos.push_back(e4);
-
-	for (int i = 0; i < elementos.size(); i++)
+	for (auto&& e : *elementos)
 	{
-		cout << "id: " << elementos[i].id << " nome: " << elementos[i].nome << endl;
+		std::cout << "id: " << e->id << " nome: " << e->nome << std::endl;
 	}
-
-
 
 	return 0;
 }
